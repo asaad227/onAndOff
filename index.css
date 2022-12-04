@@ -1,39 +1,34 @@
-
-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.mainTxt{
-    display: flex;
-    background-color: aquamarine;
-    padding: 5px;
-    border-radius: 10px;
+.mainTxt {
+  display: flex;
+  background-color: aquamarine;
+  padding: 5px;
+  border-radius: 10px;
 }
-.noLine{
-    display: none;
+.noLine {
+  display: none;
 }
 
-    .msgreen {
-        display: flex;
-        justify-content: center;
-        font-style: oblique;
-        padding: 5px;
-        border-radius: 10px;
-        background-color: #008000;
-        width: 200px;
-        
-    }
-    .msred {
-      display: flex;
-      justify-content: center;
-      font-style: oblique;
-      padding: 5px;
-      border-radius: 10px;
-      background-color: red;
-      width: 200px;
-      
-    }
-  
+.msgreen {
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #008000;
+  width: 200px;
+}
+.msred {
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: red;
+  width: 200px;
+}
