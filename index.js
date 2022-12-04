@@ -1,9 +1,16 @@
 const txt = document.querySelector(".msg");
-
+const item = document.querySelector(".item");
+const title = document.querySelector(".title");
 function handleNetworkChange() {
   navigator.onLine
+  ? (item.href = "./ahammedSaad_profile_pic.jpg")
+  : (item.href = "./favicon.ico");
+  navigator.onLine
+  ? (title.innerHTML = "🔗")
+  : (title.innerHTML = "😞");
+  navigator.onLine
     ? (txt.innerHTML = "You're connected 🔗")
-    : (txt.innerHTML = "You're offline 😢");
+    : (txt.innerHTML = "You're offline 😞");
     //passing the txt according to user selction
   navigator.onLine ? (txt.className = "msgreen") : (txt.className = "msred");
   //swaping the class according to user selection
