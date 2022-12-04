@@ -1,0 +1,29 @@
+
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.msg{
+    display: flex;
+}
+    .msgreen {
+        display: flex;
+        justify-content: center;
+        font-style: oblique;
+        border-radius: 10px;
+        background-color: #008000;
+        width: 200px;
+       
+      
+    }
+    .msred {
+      display: flex;
+      justify-content: center;
+      font-style: oblique;
+      border-radius: 10px;
+      background-color: red;
+      width: 200px;
+      
+    }
+  
