@@ -5,7 +5,7 @@ const network = document.querySelector(".network");
 function handleNetworkChange() {
   navigator.onLine
     ? (network.src = "./connection.jpg")
-    : (network.src = "./no-internet-connection.jpg");
+    : (network.src = "./noConnection.jpg");
     navigator.onLine
     ? (network.alt = "Connected")
     : (network.alt = "No internet connection");
