@@ -4,14 +4,14 @@ const title = document.querySelector(".title");
 const network = document.querySelector(".network");
 function handleNetworkChange() {
   navigator.onLine
-    ? (network.src = "./connection.jpg")
-    : (network.src = "./noConnection.jpg");
+    ? (network.src = "./Assets/connection.jpg")
+    : (network.src = "./Assets/noConnection.jpg");
     navigator.onLine
     ? (network.alt = "Connected")
     : (network.alt = "No internet connection");
   navigator.onLine
-    ? (item.href = "./ahammedSaad_profile_pic.jpg")
-    : (item.href = "./favicon.ico");
+    ? (item.href = "./Assets/ahammedSaad_profile_pic.jpg")
+    : (item.href = "./Assets/favicon.ico");
   navigator.onLine ? (title.innerHTML = "🔗") : (title.innerHTML = "😞");
   navigator.onLine
     ? (txt.innerHTML = "You're connected 🔗")
