@@ -6,7 +6,8 @@ div {
 
 .mainTxt {
   display: flex;
-  background-color: aquamarine;
+  color: #f6f6f6;
+  background-color: rgb(70, 84, 79);
   padding: 5px;
   border-radius: 10px;
 }
@@ -16,6 +17,7 @@ div {
 
 .msgreen {
   display: flex;
+  color: #f6f6f6;
   justify-content: center;
   font-style: oblique;
   padding: 5px;
@@ -25,6 +27,7 @@ div {
 }
 .msred {
   display: flex;
+  color: #f6f6f6;
   justify-content: center;
   font-style: oblique;
   padding: 5px;
