@@ -1,17 +1,22 @@
 const txt = document.querySelector(".msg");
 const item = document.querySelector(".item");
 const title = document.querySelector(".title");
+const network = document.querySelector(".network");
 function handleNetworkChange() {
   navigator.onLine
-  ? (item.href = "./ahammedSaad_profile_pic.jpg")
-  : (item.href = "./favicon.ico");
+    ? (network.src = "./connection.jpg")
+    : (network.src = "./No-internet-connection-300x161.png");
+    navigator.onLine
+    ? (network.alt = "Connected")
+    : (network.alt = "No internet connection");
   navigator.onLine
-  ? (title.innerHTML = "🔗")
-  : (title.innerHTML = "😞");
+    ? (item.href = "./ahammedSaad_profile_pic.jpg")
+    : (item.href = "./favicon.ico");
+  navigator.onLine ? (title.innerHTML = "🔗") : (title.innerHTML = "😞");
   navigator.onLine
     ? (txt.innerHTML = "You're connected 🔗")
     : (txt.innerHTML = "You're offline 😞");
-    //passing the txt according to user selction
+  //passing the txt according to user selction
   navigator.onLine ? (txt.className = "msgreen") : (txt.className = "msred");
   //swaping the class according to user selection
 }

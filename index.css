@@ -1,7 +1,14 @@
+body{
+  background-color: antiquewhite;
+
+}
+
 div {
   display: flex;
   flex-direction: column;
   align-items: center;
+ margin: 10px;
+ 
 }
 
 .mainTxt {
@@ -10,6 +17,8 @@ div {
   background-color: rgb(70, 84, 79);
   padding: 5px;
   border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 0px 5px #f6f6f6;
 }
 .noLine {
   display: none;
@@ -34,4 +43,9 @@ div {
   border-radius: 10px;
   background-color: red;
   width: 200px;
+}
+
+.network{
+  width: 300px;
+  height: 161px;
 }
